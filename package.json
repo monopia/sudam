@@ -1,23 +1,24 @@
 {
-  "name": "sudam-naming",
-  "version": "0.1.0",
+  "name": "sudam-pack",
+  "version": "0.0.1",
   "private": true,
-  "description": "Simple Naming Application.",
-  "main": "server.js",
-  "author": "sudam",
   "license": "UNLICENSED",
-  "script": {
-    "start": "npm ./server.js"
+  "author": "sudam",
+  "scripts": {
+    "start": "node ./server/start"
   },
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
     "gulp": "^3.9.1",
     "gulp-coffee": "^2.3.3",
     "gulp-pug": "^3.1.0",
     "method-override": "^2.3.7",
     "mongoose": "^4.7.0",
-    "morgan": "^1.7.0",
-    "pug": "^2.0.0-beta6"
+    "morgan": "~1.7.0",
+    "pug": "~2.0.0-beta6",
+    "serve-favicon": "~2.3.0"
   }
 }
