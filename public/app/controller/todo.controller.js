@@ -1,4 +1,4 @@
-angular.module('sudam-naming', [])
+angular.module('sudamNaming', [])
 .controller('todoController', function($scope, $http, Todos) {
 
   $scope.formData = {};

@@ -1,4 +1,5 @@
 var Todo = require('./model/todo');
+var path = require('path');
 
 module.exports = function(app) {
 
@@ -48,6 +49,7 @@ module.exports = function(app) {
   // frontend routes : 마지막에 위치
   // route to handle all angular requests
   app.get('*', function(req, res) {
-    res.sendfile('./public/index.html'); // load our public/index.html file
+    res.sendFile(path.join(__dirname, '../public', 'index.html'));
+    //res.sendfile('../public/index.html'); // load our public/index.html file
   });
 }

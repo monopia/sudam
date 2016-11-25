@@ -3,13 +3,17 @@ angular.module('appRoutes', [])
 
   $routeProvider
 
-  // home page
-
   // todo
+  .when('/', {
+      templateUrl: '/app/home.html'
+  })
+
   .when('/todos', {
-      templateUrl: 'app/controller/todo.controller.html',
+      templateUrl: '/app/controller/todo.controller.html',
       controller: 'todoController'
-  });
+  })
+
+  .otherwise('/');
 
   $locationProvider.html5Mode(true);
 

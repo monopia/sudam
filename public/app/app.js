@@ -1,1 +1,1 @@
-angular.module('sudam', ['appRoutes', 'sudam-naming', 'todoService']);
+angular.module('sudamApp', ['ngRoute', 'appRoutes', 'sudamNaming', 'TodoService']);

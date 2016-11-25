@@ -5,7 +5,7 @@
   "license": "UNLICENSED",
   "author": "sudam",
   "scripts": {
-    "start": "node ./server/start"
+    "start": "node ./server"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
