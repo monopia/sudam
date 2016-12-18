@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var del = require('del');
 var browserify = require('browserify');
 var gutil = require('gulp-util');
 var tap = require('gulp-tap');
@@ -7,14 +8,27 @@ var sourcemaps = require('gulp-sourcemaps');
 var uglify = require('gulp-uglify');
 var changed = require('gulp-changed');
 var coffee = require('gulp-coffee');
+var pug = require('gulp-pug');
 
 var src = './src'
-var dest = './dist'
+var dest = '/dest'
+var dist = '/dist'
 
 gulp.task('coffee', function() {
-  gulp.src('./src/*.coffee')
+  gulp.src(src + '**/*.coffee')
     .pipe(coffee({bare: true}))
-    .pipe(gulp.dest('./public/'));
+    .pipe(gulp.dest(dest));
+});
+
+gulp.task('pug', function() {
+  gulp.src(src + '**/*.pug')
+    .pipe(pug({}))
+    .pipe(gulp.dest(dest));
+});
+
+gulp.task('build', function() {
+  gulp.coffee();
+  gulp.pug();
 });
 
 gulp.task('js', function () {
