@@ -1,2 +1,2 @@
-module.exports
+module.exports =
   url : 'mongodb://localhost/sudam'

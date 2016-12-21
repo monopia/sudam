@@ -12,14 +12,7 @@ debug = require('debug')('sudam:server');
 http = require('http');
 
 
-/**
- * Get port from environment and store in Express.
- */
-
-port = normalizePort(process.env.PORT || '3000');
-
-
-/**
+/*
  * Normalize a port into a number, string, or false.
  */
 
@@ -28,12 +21,17 @@ normalizePort = function(val) {
   port = parseInt(val, 10);
   if (isNaN(port)) {
     return val;
-  }
-  if (port >= 0) {
+  } else {
     return port;
   }
-  return false;
 };
+
+
+/**
+ * Get port from environment and store in Express.
+ */
+
+port = normalizePort(process.env.PORT || '3000');
 
 
 /**

@@ -1,4 +1,5 @@
-angular.module('TodoService', []).factory 'Todos', [
+angular.module('TodoService', [])
+.factory 'Todos', [
   '$http'
   ($http) ->
     get: ->

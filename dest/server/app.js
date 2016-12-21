@@ -36,8 +36,8 @@ app.use(methodOverride('X-HTTP-Method-Override'));
 
 app.use(cookieParser());
 
-app.use(express["static"](path.join(__dirname, 'public')));
+app.use(express["static"](path.join(__dirname, '../public')));
 
-require('./server/routes')(app);
+require('./routes')(app);
 
 module.exports = app;

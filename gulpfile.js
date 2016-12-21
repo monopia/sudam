@@ -7,28 +7,42 @@ var buffer = require('gulp-buffer');
 var sourcemaps = require('gulp-sourcemaps');
 var uglify = require('gulp-uglify');
 var changed = require('gulp-changed');
+var ngAnnotate = require('gulp-ng-annotate');
 var coffee = require('gulp-coffee');
 var pug = require('gulp-pug');
+var nodemon = require('gulp-nodemon');
 
-var src = './src'
-var dest = '/dest'
-var dist = '/dist'
+var src  = './src'
+var dest = './dest'
+//var dist = './dist'
 
 gulp.task('coffee', function() {
-  gulp.src(src + '**/*.coffee')
+  var stream = gulp.src(src + '/**/*.coffee')
+    //.pipe(changed(dest, {extension: '.js'}))
+    //.pipe(ngAnnotate())
     .pipe(coffee({bare: true}))
     .pipe(gulp.dest(dest));
+  return stream
 });
 
 gulp.task('pug', function() {
-  gulp.src(src + '**/*.pug')
+  var stream = gulp.src(src + '/**/*.pug')
+    //.pipe(changed(dest, {extension: '.html'}))
+    //.pipe(ngAnnotate())
     .pipe(pug({}))
     .pipe(gulp.dest(dest));
+  return stream
 });
 
-gulp.task('build', function() {
-  gulp.coffee();
-  gulp.pug();
+gulp.task('compile', ['pug', 'coffee']);
+
+gulp.task('default', ['coffee','pug'], function() {
+  var stream = nodemon({
+    script: './dest/server/server.js'
+    ,watch: 'src'
+    ,tasks: ['coffee', 'pug']
+  })
+  return stream
 });
 
 gulp.task('js', function () {

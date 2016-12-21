@@ -19,8 +19,8 @@ app.use bodyParser.json(type: 'application/vnd.api+json')
 app.use bodyParser.urlencoded(extended: true)
 app.use methodOverride('X-HTTP-Method-Override')
 app.use cookieParser()
-app.use express.static(path.join(__dirname, 'public'))
+app.use express.static(path.join(__dirname, '../public'))
 
-require('./server/routes') app
+require('./routes') app
 
 module.exports = app

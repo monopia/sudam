@@ -7,26 +7,24 @@ app = require('./app')
 debug = require('debug')('sudam:server')
 http = require('http')
 
+###
+# Normalize a port into a number, string, or false.
+###
+
+normalizePort = (val) ->
+  port = parseInt(val, 10)
+  if isNaN(port)
+    # named pipe
+    return val
+  else
+    # port number
+    return port
+
 ###*
 # Get port from environment and store in Express.
 ###
 
 port = normalizePort(process.env.PORT or '3000')
-
-###*
-# Normalize a port into a number, string, or false.
-###
-
-normalizePort = (val) ->
-  `var port`
-  port = parseInt(val, 10)
-  if isNaN(port)
-    # named pipe
-    return val
-  if port >= 0
-    # port number
-    return port
-  false
 
 ###*
 # Event listener for HTTP server "error" event.
