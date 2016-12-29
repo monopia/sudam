@@ -1,2 +1,0 @@
-# sudam
-ng study
