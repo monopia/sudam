@@ -1,7 +1,7 @@
 angular.module 'sudam'
   .controller 'MainController', ($timeout, webDevTec, toastr) ->
     'ngInject'
-    vm = this
+    vm = @
     activate = ->
       getWebDevTec()
       $timeout (->
