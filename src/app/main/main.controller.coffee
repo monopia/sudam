@@ -24,7 +24,7 @@ angular.module 'sudam'
 
     vm.awesomeThings = []
     vm.classAnimation = ''
-    vm.creationDate = 1483017831906
+    # vm.creationDate = 1483017831906
     vm.showToastr = showToastr
     activate()
     return
