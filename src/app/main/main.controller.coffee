@@ -1,7 +1,8 @@
 angular.module 'sudam'
-  .controller 'MainController', ($timeout, webDevTec, toastr) ->
+  .controller 'MainController', ($timeout, webDevTec, toastr, hanja) ->
     'ngInject'
     vm = @
+
     activate = ->
       getWebDevTec()
       $timeout (->
@@ -22,6 +23,8 @@ angular.module 'sudam'
         return
       return
 
+    vm.hanja = hanja
+    console.log vm.hanja.head
     vm.awesomeThings = []
     vm.classAnimation = ''
     # vm.creationDate = 1483017831906
