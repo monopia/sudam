@@ -24,7 +24,8 @@ angular.module 'sudam'
       return
 
     vm.hanja = hanja
-    console.log vm.hanja.head
+    console.log Object.keys(vm.hanja.master)[2]
+    vm.show = Object.keys(vm.hanja.master)[2]
     vm.awesomeThings = []
     vm.classAnimation = ''
     # vm.creationDate = 1483017831906
