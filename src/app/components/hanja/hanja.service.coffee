@@ -8,6 +8,7 @@ angular.module 'sudam'
       20: '준수하다, 빼어나다'
       30: '빛나다'
       40: '돈, 명예'
+      45: '승리'
       50: '복되다, 길하다'
       60: '귀한 옥, 보석'
       70: '지혜롭다, 똑똑하다'
@@ -23,6 +24,7 @@ angular.module 'sudam'
       300: '꽃, 나무, 풀'
       310: '물(水)'
       320: '불(火)'
+      330: '산(山)'
     ]
 
     hanja.master =
@@ -398,14 +400,63 @@ angular.module 'sudam'
         def: [ {val: '갈', desc: ['짚']}, {val: '길', desc:['뻐꾸기']} ]
         stroke: 11
         tag: [200]
-
-
-
-
-
-
-
-
+      '蠍'
+        def: [ {val: '갈', desc: ['전갈']} ]
+        stroke: 19
+        tag: [200]
+      '甘'
+        def: [ {val: '감', desc: ['달']} ]
+        stroke: 5
+      '減'
+        def: [ {val: '감', desc: ['덜']} ]
+        stroke: 12
+        originStroke: 13
+      '感'
+        def: [ {val: '감', desc: ['느낄']} ]
+        stroke: 13
+      '敢'
+        def: [ {val: '감', desc: ['감히']} ]
+        stroke: 12
+      '監'
+        def: [ {val: '감', desc: ['볼']} ]
+        stroke: 14
+      '鑑'
+        def: [ {val: '감', desc: ['거울']} ]
+        stroke: 22
+      '勘'
+        def: [ {val: '감', desc: ['헤아릴']} ]
+        stroke: 11
+        tag: [70]
+      '堪'
+        def: [ {val: '감', desc: ['견딜']} ]
+        stroke: 12
+        tag: [80]
+      '瞰'
+        def: [ {val: '감', desc: ['굽어볼']} ]
+        stroke: 17
+      '坎'
+        def: [ {val: '감', desc: ['구덩이']} ]
+        stroke: 7
+      '嵌'
+        def: [ {val: '감', desc: ['산골짜기']} ]
+        stroke: 7
+        tag: [330]
+      '憾'
+        def: [ {val: '감', desc: ['섭섭할']} ]
+        stroke: 16
+        originStroke: 17
+      '戡'
+        def: [ {val: '감', desc: ['이길']} ]
+        stroke: 13
+        tag: [45]
+      '柑'
+        def: [ {val: '감', desc: ['귤']} ]
+        stroke: 9
+        tag: [300]
+      '橄'
+        def: [ {val: '감', desc: ['감람나무']} ]
+        stroke: 16
+        tag: [300]
 
 
 
