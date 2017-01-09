@@ -3,13 +3,15 @@
   //-   acme-navbar(creation-date='vm.creationDate')
   .jumbotron.text-center
     h1 秀 淡
-    h2 {{ vm.show }}
     p.lead
       img(src='assets/images/yeoman.png', alt="I'm Yeoman")
       br
-      | 온라인 작명소
-    p.animated.infinite(ng-class='vm.classAnimation')
+      | 안녕하세요! 온라인 작명소 주인장 수담(秀淡)입니다.
+      | 부담없이 원하시는 이름을 완성해 보세요.
+    //- p.animated.infinite(ng-class='vm.classAnimation')
       button.btn.btn-lg.btn-success(type='button', ng-click='vm.showToastr()') Splendid Toastr
+    p
+      input(ng-model='vm.input1')
     p
       | With ♥ thanks to the contributions of
       acme-malarkey(extra-values="['Yeoman', 'Gulp', 'Angular']")

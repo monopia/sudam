@@ -20,6 +20,7 @@ angular.module 'sudam'
       130: '한가롭다, 여유롭다'
       140: '날카롭다, 엄하다'
       150: '즐겁다, 경사, 놀다'
+      160: '색깔'
       200: '동물'
       300: '꽃, 나무, 풀'
       310: '물(水)'
@@ -354,109 +355,172 @@ angular.module 'sudam'
       '迀':
         def: [ {val: '간', desc: ['구할']} ]
         stroke: 7
-      '桿'
+      '桿':
         def: [ {val: '간', desc: ['난간']} ]
         stroke: 11
-      '渴'
+      '渴':
         def: [ {val: '갈', desc: ['목마를']} ]
         stroke: 12
-      '葛'
+      '葛':
         def: [ {val: '갈', desc: ['칡']} ]
         stroke: 13
         originStroke: 15
         tag: [300]
-      '乫'
+      '乫':
         def: [ {val: '갈', desc: ['땅이름']} ]
         stroke: 6
-      '喝'
+      '喝':
         def: [ {val: '갈', desc: ['꾸짖을']} ]
         stroke: 12
-      '曷'
+      '曷':
         def: [ {val: '갈', desc: ['어찌']} ]
         stroke: 9
-      '碣'
+      '碣':
         def: [ {val: '갈', desc: ['비석']} ]
         stroke: 14
-      '竭'
+      '竭':
         def: [ {val: '갈', desc: ['다할']} ]
         stroke: 14
-      '褐'
+      '褐':
         def: [ {val: '갈', desc: ['갈색']} ]
         stroke: 14
         originStroke: 15
-      '蝎'
+      '蝎':
         def: [ {val: '갈', desc: ['전갈']} ]
         stroke: 15
-      '鞨'
+      '鞨':
         def: [ {val: '갈', desc: ['말갈']} ]
         stroke: 18
-      '噶'
+      '噶':
         def: [ {val: '갈', desc: ['맹세할']} ]
         stroke: 16
-      '楬'
+      '楬':
         def: [ {val: '갈', desc: ['푯말']} ]
         stroke: 13
-      '秸'
+      '秸':
         def: [ {val: '갈', desc: ['짚']}, {val: '길', desc:['뻐꾸기']} ]
         stroke: 11
         tag: [200]
-      '蠍'
+      '蠍':
         def: [ {val: '갈', desc: ['전갈']} ]
         stroke: 19
         tag: [200]
-      '甘'
+      '甘':
         def: [ {val: '감', desc: ['달']} ]
         stroke: 5
-      '減'
+      '減':
         def: [ {val: '감', desc: ['덜']} ]
         stroke: 12
         originStroke: 13
-      '感'
+      '感':
         def: [ {val: '감', desc: ['느낄']} ]
         stroke: 13
-      '敢'
+      '敢':
         def: [ {val: '감', desc: ['감히']} ]
         stroke: 12
-      '監'
+      '監':
         def: [ {val: '감', desc: ['볼']} ]
         stroke: 14
-      '鑑'
+      '鑑':
         def: [ {val: '감', desc: ['거울']} ]
         stroke: 22
-      '勘'
+      '勘':
         def: [ {val: '감', desc: ['헤아릴']} ]
         stroke: 11
         tag: [70]
-      '堪'
+      '堪':
         def: [ {val: '감', desc: ['견딜']} ]
         stroke: 12
         tag: [80]
-      '瞰'
+      '瞰':
         def: [ {val: '감', desc: ['굽어볼']} ]
         stroke: 17
-      '坎'
+      '矙':
+        def: [ {val: '감', desc: ['엿볼']} ]
+        stroke: 25
+      '坎':
         def: [ {val: '감', desc: ['구덩이']} ]
         stroke: 7
-      '嵌'
+      '嵌':
         def: [ {val: '감', desc: ['산골짜기']} ]
         stroke: 7
         tag: [330]
-      '憾'
+      '憾':
         def: [ {val: '감', desc: ['섭섭할']} ]
         stroke: 16
         originStroke: 17
-      '戡'
+      '戡':
         def: [ {val: '감', desc: ['이길']} ]
         stroke: 13
         tag: [45]
-      '柑'
+      '柑':
         def: [ {val: '감', desc: ['귤']} ]
         stroke: 9
         tag: [300]
-      '橄'
+      '橄':
         def: [ {val: '감', desc: ['감람나무']} ]
         stroke: 16
         tag: [300]
+      '疳':
+        def: [ {val: '감', desc: ['감질']} ]
+        stroke: 10
+      '紺':
+        def: [ {val: '감', desc: ['감색','연보라']} ]
+        stroke: 11
+        tag: [160]
+      '邯':
+        def: [ {val: '감', desc: ['땅이름']} ]
+        stroke: 8
+        originStroke: 12
+      '龕':
+        def: [ {val: '감', desc: ['감실']} ]
+        stroke: 22
+      '坩':
+        def: [ {val: '감', desc: ['도가니']} ]
+        stroke: 8
+      '憨':
+        def: [ {val: '감', desc: ['어리석을']} ]
+        stroke: 16
+      '撼':
+        def: [ {val: '감', desc: ['흔들']} ]
+        stroke: 16
+        originStroke: 17
+      '欿':
+        def: [ {val: '감', desc: ['서운할']} ]
+        stroke: 12
+      '歛':
+        def: [ {val: '감', desc: ['줄','탐할']} ]
+        stroke: 17
+      '泔':
+        def: [ {val: '감', desc: ['뜨물']} ]
+        stroke: 8
+        originStroke: 9
+      '淦':
+        def: [ {val: '감', desc: ['물이름']} ]
+        stroke: 11
+        originStroke: 12
+        tag: [310]
+      '澉':
+        def: [ {val: '감', desc: ['싱거울']} ]
+        stroke: 15
+        originStroke: 16
+      '轗':
+        def: [ {val: '감', desc: ['가기힘들']} ]
+        stroke: 20
+      '酣':
+        def: [ {val: '감', desc: ['흥겨울']} ]
+        stroke: 12
+        tag: [150]
+      '鑒':
+        def: [ {val: '감', desc: ['거울']} ]
+        stroke: 22
+        tag: [70]
+      '玪':
+        def: [ {val: '감', desc: ['옥 이름']} ]
+        stroke: 8
+        originStroke: 9
+        tag: [60]
+
 
 
 
