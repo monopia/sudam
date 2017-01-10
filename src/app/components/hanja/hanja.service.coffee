@@ -26,30 +26,32 @@ angular.module 'sudam'
       310: '물(水)'
       320: '불(火)'
       330: '산(山)'
+      350: '몸,신체'
+      400: '천간(天干)'
     ]
 
     hanja.master =
       '家':
         def: [ {val: '가', desc: ['집']} ]
         stroke: 10
+      '加':
+        def: [ {val: '가', desc: ['더할']} ]
+        stroke: 5
       '佳':
         def: [ {val: '가', desc: ['아름다울']} ]
         stroke: 8
         tag: [10]
+      '嘉':
+        def: [ {val: '가', desc: ['아름다울','기뻐할']} ]
+        stroke: 14
+        tag: [10,150]
       '街':
         def: [ {val: '가', desc: ['거리']} ]
         stroke: 12
-      '可':
-        def: [ {val: '가', desc: ['옳을']} ]
-        stroke: 5
-        tag: [110]
-      '歌':
-        def: [ {val: '가', desc: ['노래']} ]
-        stroke: 14
-        tag: [150]
-      '加':
-        def: [ {val: '가', desc: ['더할']} ]
-        stroke: 5
+      '賈':
+        def: [ {val: '가', desc: ['값']} ]
+        stroke: 13
+        tag: [40]
       '價':
         def: [ {val: '가', desc: ['값']} ]
         stroke: 15
@@ -57,17 +59,21 @@ angular.module 'sudam'
       '假':
         def: [ {val: '가', desc: ['거짓','임시']} ]
         stroke: 11
-      '架':
-        def: [ {val: '가', desc: ['시렁']} ]
-        stroke: 9
       '暇':
         def: [ {val: '가', desc: ['한가할']} ]
         stroke: 13
         tag: [130]
-      '嘉':
-        def: [ {val: '가', desc: ['아름다울','기뻐할']} ]
+      '可':
+        def: [ {val: '가', desc: ['옳을']} ]
+        stroke: 5
+        tag: [110]
+      '哥':
+        def: [ {val: '가', desc: ['성씨(낮춤말)']} ]
+        stroke: 10
+      '歌':
+        def: [ {val: '가', desc: ['노래']} ]
         stroke: 14
-        tag: [10,150]
+        tag: [150]
       '嫁':
         def: [ {val: '가', desc: ['시집갈']} ]
         stroke: 13
@@ -75,10 +81,9 @@ angular.module 'sudam'
         def: [ {val: '가', desc: ['심을']} ]
         stroke: 15
         tag: [10,120]
-      '賈':
-        def: [ {val: '가', desc: ['값']} ]
-        stroke: 13
-        tag: [40]
+      '架':
+        def: [ {val: '가', desc: ['시렁']} ]
+        stroke: 9
       '駕':
         def: [ {val: '가', desc: ['멍에', '능가할']} ]
         stroke: 15
@@ -91,33 +96,12 @@ angular.module 'sudam'
         def: [ {val: '가', desc: ['부처이름']} ]
         stroke: 9
         originStroke: 12
-      '柯':
-        def: [ {val: '가', desc: ['가지', '모밀잣밤나무']} ]
-        stroke: 9
-        tag: [300]
-      '呵':
-        def: [ {val: '가', desc: ['꾸짖을', '껄껄 웃을']} ]
-        stroke: 8
-        tag: [90,140]
-      '哥':
-        def: [ {val: '가', desc: ['성씨(낮춤말)']} ]
-        stroke: 10
       '枷':
         def: [ {val: '가', desc: ['(머리에 씌우는)칼', '도리깨']} ]
         stroke: 9
-      '珂':
-        def: [ {val: '가', desc: ['마노', '흰 옥돌']} ]
-        stroke: 9
-        originStroke: 10
-        tag: [60]
       '痂':
         def: [ {val: '가', desc: ['딱지', '옴']} ]
         stroke: 10
-      '苛':
-        def: [ {val: '가', desc: ['가혹할', '옴']} ]
-        stroke: 9
-        originStroke: 11
-        tag: [140]
       '茄':
         def: [ {val: '가', desc: ['연줄기']} ]
         stroke: 9
@@ -126,27 +110,64 @@ angular.module 'sudam'
       '袈':
         def: [ {val: '가', desc: ['가사(승려가 입는 법의)']} ]
         stroke: 11
-      '訶':
-        def: [ {val: '가', desc: ['꾸짖을']} ]
-        stroke: 12
-        tag: [140]
-      '跏':
-        def: [ {val: '가', desc: ['가부좌(책상다리)']} ]
-        stroke: 12
-      '軻':
-        def: [ {val: '가', desc: ['수레', '맹자의 이름']} ]
-        stroke: 12
       '哿':
         def: [ {val: '가', desc: ['옳을']} ]
         stroke: 10
         tag: [110]
-      '舸':
-        def: [ {val: '가', desc: ['배']} ]
-        stroke: 11
+      '跏':
+        def: [ {val: '가', desc: ['가부좌(책상다리)']} ]
+        stroke: 12
       '珈':
         def: [ {val: '가', desc: ['머리꾸미개']} ]
         stroke: 9
         originStroke: 10
+      '笳':
+        def: [ {val: '가', desc: ['갈대 피리']} ]
+        stroke: 11
+      '耞':
+        def: [ {val: '가', desc: ['도리깨']} ]
+        stroke: 11
+      '檟':
+        def: [ {val: '가', desc: ['개오동나무']} ]
+        stroke: 17
+        tag: [300]
+      '葭':
+        def: [ {val: '가', desc: ['갈대']} ]
+        stroke: 13
+        originStroke: 15
+        tag: [300]
+      '謌':
+        def: [ {val: '가', desc: ['노래']} ]
+        stroke: 17
+        tag: [150]
+      '柯':
+        def: [ {val: '가', desc: ['가지', '모밀잣밤나무']} ]
+        stroke: 9
+        tag: [300]
+      '呵':
+        def: [ {val: '가', desc: ['꾸짖을', '껄껄 웃을']} ]
+        stroke: 8
+        tag: [90,140]
+      '訶':
+        def: [ {val: '가', desc: ['꾸짖을']} ]
+        stroke: 12
+        tag: [140]
+      '珂':
+        def: [ {val: '가', desc: ['마노', '흰 옥돌']} ]
+        stroke: 9
+        originStroke: 10
+        tag: [60]
+      '苛':
+        def: [ {val: '가', desc: ['가혹할', '옴']} ]
+        stroke: 9
+        originStroke: 11
+        tag: [140]
+      '軻':
+        def: [ {val: '가', desc: ['수레', '맹자의 이름']} ]
+        stroke: 12
+      '舸':
+        def: [ {val: '가', desc: ['배']} ]
+        stroke: 11
       '坷':
         def: [ {val: '가', desc: ['평탄하지 않을']} ]
         stroke: 8
@@ -157,28 +178,12 @@ angular.module 'sudam'
         def: [ {val: '가', desc: ['개오동나무', '팽나무']} ]
         stroke: 14
         tag: [300]
-      '檟':
-        def: [ {val: '가', desc: ['개오동나무']} ]
-        stroke: 17
-        tag: [300]
-      '笳':
-        def: [ {val: '가', desc: ['갈대 피리']} ]
-        stroke: 11
-      '耞':
-        def: [ {val: '가', desc: ['도리깨']} ]
-        stroke: 11
-      '葭':
-        def: [ {val: '가', desc: ['갈대']} ]
-        stroke: 13
-        originStroke: 15
-        tag: [300]
-      '謌':
-        def: [ {val: '가', desc: ['노래']} ]
-        stroke: 17
-        tag: [150]
       '各':
         def: [ {val: '각', desc: ['각각']} ]
         stroke: 6
+      '閣':
+        def: [ {val: '각', desc: ['집']} ]
+        stroke: 14
       '角':
         def: [ {val: '각', desc: ['뿔']} ]
         stroke: 7
@@ -186,9 +191,7 @@ angular.module 'sudam'
         def: [ {val: '각', desc: ['다리']} ]
         stroke: 11
         originStroke: 13
-      '閣':
-        def: [ {val: '각', desc: ['집']} ]
-        stroke: 14
+        tag: [350]
       '却':
         def: [ {val: '각', desc: ['물리칠']} ]
         stroke: 7
@@ -199,15 +202,25 @@ angular.module 'sudam'
       '刻':
         def: [ {val: '각', desc: ['새길']} ]
         stroke: 8
+      '恪':
+        def: [ {val: '각', desc: ['삼갈']} ]
+        stroke: 9
+        originStroke: 10
+      '咯':
+        def: [ {val: '각', desc: ['울','토할']} ]
+        stroke: 9
+      '擱':
+        def: [ {val: '각', desc: ['놓을']} ]
+        stroke: 17
+        originStroke: 18
+      '埆':
+        def: [ {val: '각', desc: ['메마를']} ]
+        stroke: 10
       '珏':
         def: [ {val: '각', desc: ['쌍옥']} ]
         stroke: 9
         originStroke: 10
         tag: [60]
-      '恪':
-        def: [ {val: '각', desc: ['삼갈']} ]
-        stroke: 9
-        originStroke: 10
       '殼':
         def: [ {val: '각', desc: ['껍질','내려칠']} ]
         stroke: 12
@@ -217,20 +230,10 @@ angular.module 'sudam'
       '卻':
         def: [ {val: '각', desc: ['물리칠']} ]
         stroke: 9
-      '咯':
-        def: [ {val: '각', desc: ['울','토할']} ]
-        stroke: 9
-      '埆':
-        def: [ {val: '각', desc: ['메마를']} ]
-        stroke: 10
       '搉':
         def: [ {val: '각', desc: ['두드릴']} ]
         stroke: 13
         originStroke: 14
-      '擱':
-        def: [ {val: '각', desc: ['놓을']} ]
-        stroke: 17
-        originStroke: 18
       '桷':
         def: [ {val: '각', desc: ['서까래']} ]
         stroke: 11
@@ -255,6 +258,7 @@ angular.module 'sudam'
         def: [ {val: '간', desc: ['간']} ]
         stroke: 7
         originStroke: 9
+        tag: [350]
       '幹':
         def: [ {val: '간', desc: ['줄기']} ]
         stroke: 13
@@ -520,9 +524,137 @@ angular.module 'sudam'
         stroke: 8
         originStroke: 9
         tag: [60]
-
-
-
+      '甲':
+        def: [ {val: '갑', desc: ['갑옷','첫째 천간']} ]
+        stroke: 5
+        tag: [400]
+      '鉀':
+        def: [ {val: '갑', desc: ['갑옷']} ]
+        stroke: 5
+      '匣':
+        def: [ {val: '갑', desc: ['갑']} ]
+        stroke: 7
+      '岬':
+        def: [ {val: '갑', desc: ['곶']} ]
+        stroke: 8
+        tag: [330]
+      '胛':
+        def: [ {val: '갑', desc: ['어깨뼈']} ]
+        stroke: 9
+        originStroke: 11
+        tag: [350]
+      '閘':
+        def: [ {val: '갑', desc: ['수문']} ]
+        stroke: 13
+      '江':
+        def: [ {val: '강', desc: ['강']} ]
+        stroke: 6
+        originStroke: 7
+        tag: [310]
+      '降':
+        def: [ {val: '강', desc: ['내릴']} ]
+        stroke: 9
+        originStroke: 14
+      '講':
+        def: [ {val: '강', desc: ['외울']} ]
+        stroke: 17
+        tag: [70]
+      '强':
+        def: [ {val: '강', desc: ['강할']} ]
+        stroke: 11
+        tag: [80]
+      '康':
+        def: [ {val: '강', desc: ['편안할']} ]
+        stroke: 11
+        tag: [130]
+      '嫝':
+        def: [ {val: '강', desc: ['편안할']} ]
+        stroke: 14
+        tag: [130]
+      '剛':
+        def: [ {val: '강', desc: ['굳셀']} ]
+        stroke: 10
+        tag: [80]
+      '彊':
+        def: [ {val: '강', desc: ['굳셀']} ]
+        stroke: 16
+        tag: [80]
+      '疆':
+        def: [ {val: '강', desc: ['지경']} ]
+        stroke: 19
+      '壃':
+        def: [ {val: '강', desc: ['지경']} ]
+        stroke: 16
+      '鋼':
+        def: [ {val: '강', desc: ['강철']} ]
+        stroke: 16
+        tag: [80]
+      '綱':
+        def: [ {val: '강', desc: ['벼리']} ]
+        stroke: 14
+      '杠':
+        def: [ {val: '강', desc: ['외나무다리']} ]
+        stroke: 7
+      '堈':
+        def: [ {val: '강', desc: ['언덕']} ]
+        stroke: 11
+      '岡':
+        def: [ {val: '강', desc: ['산등성이']} ]
+        stroke: 16
+        tag: [330]
+      '姜':
+        def: [ {val: '강', desc: ['성씨','생강']} ]
+        stroke: 9
+      '橿':
+        def: [ {val: '강', desc: ['감탕나무','박달나무']} ]
+        stroke: 17
+        tag: [300]
+      '慷':
+        def: [ {val: '강', desc: ['슬플']} ]
+        stroke: 14
+        originStroke: 15
+      '忼':
+        def: [ {val: '강', desc: ['슬플','강개할']} ]
+        stroke: 7
+        originStroke: 8
+      '糠':
+        def: [ {val: '강', desc: ['겨']} ]
+        stroke: 17
+      '絳':
+        def: [ {val: '강', desc: ['진홍']} ]
+        stroke: 12
+        tag: [160]
+      '羌':
+        def: [ {val: '강', desc: ['티베트족']} ]
+        stroke: 8
+      '薑':
+        def: [ {val: '강', desc: ['생강']} ]
+        stroke: 17
+        originStroke: 19
+        tag: [300]
+      '鱇':
+        def: [ {val: '강', desc: ['아귀']} ]
+        stroke: 22
+        tag: [200]
+      '跭':
+        def: [ {val: '강', desc: ['세울']} ]
+        stroke: 22
+      '襁':
+        def: [ {val: '강', desc: ['포대기']} ]
+        stroke: 17
+        originStroke: 18
+      '玒':
+        def: [ {val: '강', desc: ['옥이름']} ]
+        stroke: 7
+        originStroke: 8
+        tag: [60]
+      '穅':
+        def: [ {val: '강', desc: ['쌀겨']} ]
+        stroke: 16
+        tag: [300]
+      '罡':
+        def: [ {val: '강', desc: ['북두칠성']} ]
+        stroke: 10
 
 
 
