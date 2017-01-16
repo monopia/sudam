@@ -2017,29 +2017,64 @@ angular.module 'sudam'
       '拏':
         val: '라', desc: ['붙잡을']
         stroke: 9
-        prefix: '나'
+        preval: '나'
       '喇':
         val: '라', desc: ['나팔']
         stroke: 12
-        prefix: '나'
+        preval: '나'
       '羅':
         val: '라', desc: ['벌일','그물']
         stroke: 19
-        prefix: '나'
+        preval: '나'
         surname: true
       '螺':
         val: '라', desc: ['소라']
         stroke: 17
-        prefix: '나'
+        preval: '나'
       '懶':
         val: '라', desc: ['게으를']
         stroke: 19
         originStroke: 20
-        prefix: '나'
+        preval: '나'
       '諾':
         val: '락', desc: ['허락할']
         stroke: 16
-        prefix: '낙'
+        preval: '낙'
+      '落':
+        val: '락', desc: ['떨어질']
+        stroke: 13
+        originStroke: 15
+        preval: '낙'
+      '絡':
+        val: '락', desc: ['이을']
+        stroke: 12
+        preval: '낙'
+      '珞':
+        val: '락', desc: ['구슬']
+        stroke: 10
+        originStroke: 11
+        preval: '낙'
+        tag: [60]
+      '酪':
+        val: '락', desc: ['소젓']
+        stroke: 13
+        preval: '낙'
+      '駱':
+        val: '락', desc: ['낙타']
+        stroke: 16
+        preval: '낙'
+        tag: [200]
+      '洛':
+        val: '락', desc: ['물이름']
+        stroke: 9
+        originStroke: 10
+        preval: '낙'
+        tag: [310]
+      '樂':
+        val: '락', desc: ['즐길']
+        stroke: 15
+        preval: '낙'
+        tag: [150]
       '暖':
         val: '난', desc: ['따뜻할']
         stroke: 13
@@ -2077,8 +2112,13 @@ angular.module 'sudam'
         val: '납', desc: ['기울']
         stroke: 9
         tag: [500]
-
-
+      '娘':
+        val: '랑', desc: ['여자']
+        stroke: 10
+        preval: '낭'
+      '囊':
+        val: '낭', desc: ['주머니']
+        stroke: 22
 
 
 
