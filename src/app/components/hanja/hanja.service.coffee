@@ -19,7 +19,7 @@ angular.module 'sudam'
       110: '의롭다, 옳다, 바르다'
       120: '부지런하다, 일'
       125: '검소,청렴,겸손'
-      130: '한가롭다, 여유롭다'
+      130: '한가, 여유, 편안'
       140: '날카롭다, 엄하다'
       150: '즐겁다, 경사, 놀다'
       160: '색깔'
@@ -2014,67 +2014,6 @@ angular.module 'sudam'
       '拿':
         val: '나', desc: ['잡을']
         stroke: 10
-      '拏':
-        val: '라', desc: ['붙잡을']
-        stroke: 9
-        preval: '나'
-      '喇':
-        val: '라', desc: ['나팔']
-        stroke: 12
-        preval: '나'
-      '羅':
-        val: '라', desc: ['벌일','그물']
-        stroke: 19
-        preval: '나'
-        surname: true
-      '螺':
-        val: '라', desc: ['소라']
-        stroke: 17
-        preval: '나'
-      '懶':
-        val: '라', desc: ['게으를']
-        stroke: 19
-        originStroke: 20
-        preval: '나'
-      '諾':
-        val: '락', desc: ['허락할']
-        stroke: 16
-        preval: '낙'
-      '落':
-        val: '락', desc: ['떨어질']
-        stroke: 13
-        originStroke: 15
-        preval: '낙'
-      '絡':
-        val: '락', desc: ['이을']
-        stroke: 12
-        preval: '낙'
-      '珞':
-        val: '락', desc: ['구슬']
-        stroke: 10
-        originStroke: 11
-        preval: '낙'
-        tag: [60]
-      '酪':
-        val: '락', desc: ['소젓']
-        stroke: 13
-        preval: '낙'
-      '駱':
-        val: '락', desc: ['낙타']
-        stroke: 16
-        preval: '낙'
-        tag: [200]
-      '洛':
-        val: '락', desc: ['물이름']
-        stroke: 9
-        originStroke: 10
-        preval: '낙'
-        tag: [310]
-      '樂':
-        val: '락', desc: ['즐길']
-        stroke: 15
-        preval: '낙'
-        tag: [150]
       '暖':
         val: '난', desc: ['따뜻할']
         stroke: 13
@@ -2112,13 +2051,155 @@ angular.module 'sudam'
         val: '납', desc: ['기울']
         stroke: 9
         tag: [500]
-      '娘':
-        val: '랑', desc: ['여자']
-        stroke: 10
-        preval: '낭'
       '囊':
         val: '낭', desc: ['주머니']
         stroke: 22
+      '內':
+        val: '내', desc: ['안']
+        stroke: 4
+      '乃':
+        val: '내', desc: ['이에','그래서']
+        stroke: 2
+        surname: true
+      '奈':
+        val: '내', desc: ['어찌']
+        stroke: 8
+        surname: true
+      '耐':
+        val: '내', desc: ['견딜']
+        stroke: 9
+      '奶':
+        val: '내', desc: ['젖']
+        stroke: 5
+      '柰':
+        val: '내', desc: ['능금나무','말리']
+        stroke: 9
+        tag: [300]
+      '女':
+        val: '녀', desc: ['여자']
+        initialVal: '여'
+        stroke: 3
+      '年':
+        val: '년', desc: ['해']
+        initialVal: '연'
+        stroke: 6
+      '念':
+        val: '념', desc: ['생각할']
+        initialVal: '염'
+        stroke: 8
+      '恬':
+        val: '념', desc: ['편안할']
+        initialVal: '염'
+        stroke: 9
+        originStroke: 10
+        tag: [130]
+      '拈':
+        val: '념', desc: ['집을']
+        initialVal: '염'
+        stroke: 8
+        originStroke: 9
+        tag: [500]
+      '捻':
+        val: '념', desc: ['비틀']
+        initialVal: '염'
+        stroke: 11
+        originStroke: 12
+      '寧':
+        val: '녕', desc: ['편안할']
+        initialVal: '영'
+        stroke: 14
+        tag: [130]
+      '寗':
+        val: '녕', desc: ['차라리']
+        initialVal: '영'
+        stroke: 13
+        surname: true
+      '怒':
+        val: '노', desc: ['성낼']
+        stroke: 9
+      '奴':
+        val: '노', desc: ['종']
+        stroke: 5
+      '努':
+        val: '노', desc: ['힘쓸']
+        stroke: 7
+        tag: [120]
+      '弩':
+        val: '노', desc: ['쇠뇌']
+        stroke: 8
+        tag: [80]
+      '瑙':
+        val: '노', desc: ['마노']
+        stroke: 13
+        originStroke: 14
+        tag: [60]
+      '駑':
+        val: '노', desc: ['둔한 말']
+        stroke: 15
+      '農':
+        val: '농', desc: ['농사']
+        stroke: 13
+      '膿':
+        val: '농', desc: ['고름']
+        stroke: 17
+        originStroke: 19
+      '濃':
+        val: '농', desc: ['짙을']
+        stroke: 16
+        originStroke: 17
+      '腦':
+        val: '뇌', desc: ['골']
+        stroke: 13
+        originStroke: 15
+      '惱':
+        val: '뇌', desc: ['번뇌할']
+        stroke: 12
+        originStroke: 13
+      '尿':
+        val: '뇨', desc: ['오줌']
+        initialVal: '요'
+        stroke: 7
+      '耨':
+        val: '누', desc: ['김맬']
+        stroke: 16
+      '嫩':
+        val: '눈', desc: ['어릴']
+        stroke: 14
+      '訥':
+        val: '눌', desc: ['말 더듬거릴']
+        stroke: 11
+      '紐':
+        val: '뉴', desc: ['맺을']
+        initialVal: '유'
+        stroke: 10
+      '能':
+        val: '능', desc: ['능할']
+        stroke: 10
+        originStroke: 12
+        surname: true
+      '泥':
+        val: '니', desc: ['진흙']
+        initialVal: '이'
+        stroke: 8
+        originStroke: 9
+      '尼':
+        val: '니', desc: ['여승']
+        initialVal: '이'
+        stroke: 5
+        tag: [500]
+      '匿':
+        val: '닉', desc: ['숨길']
+        initialVal: '익'
+        stroke: 11
+      '溺':
+        val: '닉', desc: ['빠질']
+        initialVal: '익'
+        stroke: 13
+        originStroke: 14
+      '昵':
+        val: '닐', desc: ['친할','친근할']
+        initialVal: '일'
+        stroke: 9
 
 
 
@@ -2127,6 +2208,153 @@ angular.module 'sudam'
 
 
 
+
+
+
+
+
+
+
+
+
+      '拏':
+        val: '라', desc: ['붙잡을']
+        stroke: 9
+        initialVal: '나'
+      '喇':
+        val: '라', desc: ['나팔']
+        stroke: 12
+        initialVal: '나'
+      '羅':
+        val: '라', desc: ['벌일','그물']
+        stroke: 19
+        initialVal: '나'
+        surname: true
+      '螺':
+        val: '라', desc: ['소라']
+        stroke: 17
+        initialVal: '나'
+      '懶':
+        val: '라', desc: ['게으를']
+        stroke: 19
+        originStroke: 20
+        initialVal: '나'
+      '諾':
+        val: '락', desc: ['허락할']
+        stroke: 16
+        initialVal: '낙'
+      '落':
+        val: '락', desc: ['떨어질']
+        stroke: 13
+        originStroke: 15
+        initialVal: '낙'
+      '絡':
+        val: '락', desc: ['이을']
+        stroke: 12
+        initialVal: '낙'
+      '珞':
+        val: '락', desc: ['구슬']
+        stroke: 10
+        originStroke: 11
+        initialVal: '낙'
+        tag: [60]
+      '酪':
+        val: '락', desc: ['소젓']
+        stroke: 13
+        initialVal: '낙'
+      '駱':
+        val: '락', desc: ['낙타']
+        stroke: 16
+        initialVal: '낙'
+        tag: [200]
+      '洛':
+        val: '락', desc: ['물이름']
+        stroke: 9
+        originStroke: 10
+        initialVal: '낙'
+        tag: [310]
+      '樂':
+        val: '락', desc: ['즐길']
+        stroke: 15
+        initialVal: '낙'
+        tag: [150]
+      '拉':
+        val: '랍', desc: ['끌']
+        initialVal: '납'
+        stroke: 8
+        originStroke: 9
+      '蠟':
+        val: '랍', desc: ['밀랍']
+        initialVal: '납'
+        stroke: 21
+      '娘':
+        val: '랑', desc: ['여자']
+        stroke: 10
+        initialVal: '낭'
+      '郞':
+        val: '랑', desc: ['사내']
+        stroke: 10
+        originStroke: 14
+        initialVal: '낭'
+      '浪':
+        val: '랑', desc: ['물결']
+        stroke: 10
+        originStroke: 11
+        initialVal: '낭'
+        surname: true
+      '廊':
+        val: '랑', desc: ['사랑채']
+        stroke: 13
+        initialVal: '낭'
+      '朗':
+        val: '랑', desc: ['밝을']
+        stroke: 11
+        initialVal: '낭'
+        tag: [30]
+      '烺':
+        val: '랑', desc: ['빛밝을']
+        stroke: 11
+        initialVal: '낭'
+        tag: [30,320]
+      '琅':
+        val: '랑', desc: ['옥돌']
+        stroke: 11
+        originStroke: 12
+        initialVal: '낭'
+        tag: [60]
+      '瑯':
+        val: '랑', desc: ['옥돌']
+        stroke: 14
+        originStroke: 15
+        initialVal: '낭'
+        tag: [60]
+      '狼':
+        val: '랑', desc: ['이리']
+        stroke: 10
+        originStroke: 11
+        initialVal: '낭'
+        tag: [200]
+      '螂':
+        val: '랑', desc: ['사마귀']
+        stroke: 16
+        initialVal: '낭'
+        tag: [200]
+      '來':
+        val: '래', desc: ['올']
+        initialVal: '내'
+        stroke: 8
+        surname: true
+      '崍':
+        val: '래', desc: ['산이름']
+        initialVal: '내'
+        stroke: 11
+        tag: [330]
+      '淶':
+        val: '래', desc: ['강이름']
+        initialVal: '내'
+        stroke: 11
+        originStroke: 12
+        tag: [310]
 
 
     hanja
