@@ -2200,6 +2200,279 @@ angular.module 'sudam'
         val: '닐', desc: ['친할','친근할']
         initialVal: '일'
         stroke: 9
+      '多':
+        val: '다', desc: ['많을']
+        stroke: 6
+      '丹':
+        val: '단', desc: ['붉을']
+        stroke: 4
+        tag: [160]
+      '但':
+        val: '단', desc: ['다만']
+        stroke: 7
+      '單':
+        val: '단', desc: ['홑']
+        stroke: 12
+        surname: true
+      '短':
+        val: '단', desc: ['짧을']
+        stroke: 12
+      '端':
+        val: '단', desc: ['끝']
+        stroke: 14
+        surname: true
+      '旦':
+        val: '단', desc: ['아침']
+        stroke: 5
+      '段':
+        val: '단', desc: ['층계']
+        stroke: 9
+        surname: true
+      '壇':
+        val: '단', desc: ['제단']
+        stroke: 16
+      '檀':
+        val: '단', desc: ['박달나무']
+        stroke: 17
+        tag: [300]
+      '椴':
+        val: '단', desc: ['자작나무']
+        stroke: 13
+        tag: [300]
+      '斷':
+        val: '단', desc: ['끊을']
+        stroke: 18
+      '團':
+        val: '단', desc: ['둥글']
+        stroke: 14
+      '緞':
+        val: '단', desc: ['비단']
+        stroke: 15
+      '鍛':
+        val: '단', desc: ['불릴','두드릴']
+        stroke: 17
+      '湍':
+        val: '단', desc: ['여울']
+        stroke: 12
+        originStroke: 13
+        tag: [310]
+      '蛋':
+        val: '단', desc: ['새알']
+        stroke: 11
+      '達':
+        val: '달', desc: ['통달할']
+        stroke: 13
+        tag: [75]
+      '撻':
+        val: '달', desc: ['때릴']
+        stroke: 16
+        originStroke: 17
+      '獺':
+        val: '달', desc: ['수달']
+        stroke: 19
+        originStroke: 20
+      '談':
+        val: '담', desc: ['말씀']
+        stroke: 15
+      '淡':
+        val: '담', desc: ['맑을']
+        stroke: 11
+        originStroke: 12
+        tag: [100]
+      '澹':
+        val: '담', desc: ['맑을']
+        stroke: 16
+        originStroke: 17
+        tag: [100]
+      '擔':
+        val: '담', desc: ['멜']
+        stroke: 16
+        originStroke: 17
+      '膽':
+        val: '담', desc: ['쓸개']
+        stroke: 17
+        originStroke: 19
+        tag: [350]
+      '答':
+        val: '답', desc: ['대답']
+        stroke: 12
+      '畓':
+        val: '답', desc: ['논']
+        stroke: 9
+      '踏':
+        val: '답', desc: ['밟을']
+        stroke: 15
+      '堂':
+        val: '당', desc: ['집']
+        stroke: 11
+      '當':
+        val: '당', desc: ['마땅']
+        stroke: 13
+      '黨':
+        val: '당', desc: ['무리']
+        stroke: 20
+      '唐':
+        val: '당', desc: ['당나라','당황할']
+        stroke: 10
+        surname: true
+      '糖':
+        val: '당', desc: ['엿']
+        stroke: 16
+      '蟷':
+        val: '당', desc: ['사마귀']
+        stroke: 19
+        tag: [200]
+      '大':
+        val: '대', desc: ['클']
+        stroke: 3
+        tag: [90]
+        surname: true
+      '代':
+        val: '대', desc: ['대신할']
+        stroke: 5
+      '待':
+        val: '대', desc: ['기다릴']
+        stroke: 9
+      '對':
+        val: '대', desc: ['대할']
+        stroke: 14
+        surname: true
+      '帶':
+        val: '대', desc: ['띠']
+        stroke: 11
+      '臺':
+        val: '대', desc: ['대']
+        stroke: 14
+      '貸':
+        val: '대', desc: ['빌릴']
+        stroke: 12
+      '隊':
+        val: '대', desc: ['무리']
+        stroke: 12
+        originStroke: 17
+      '垈':
+        val: '대', desc: ['집터']
+        stroke: 8
+      '袋':
+        val: '대', desc: ['자루']
+        stroke: 11
+      '戴':
+        val: '대', desc: ['머리에 일']
+        stroke: 17
+        surname: true
+      '戴':
+        val: '대', desc: ['머리에 일']
+        stroke: 17
+      '旲':
+        val: '대', desc: ['햇빛']
+        stroke: 7
+        tag: [30]
+      '宅':
+        val: '댁', desc: ['댁']
+        stroke: 6
+      '德':
+        val: '덕', desc: ['덕']
+        stroke: 15
+      '德':
+        val: '덕', desc: ['덕']
+        stroke: 15
+        tag: [50,100,110,125]
+        surname: true
+      '刀':
+        val: '도', desc: ['칼']
+        stroke: 2
+        tag: [80]
+      '度':
+        val: '도', desc: ['법도']
+        stroke: 9
+        tag: [40,70]
+      '到':
+        val: '도', desc: ['이를']
+        stroke: 8
+      '道':
+        val: '도', desc: ['길']
+        stroke: 13
+        originStroke: 16
+        surname: true
+      '途':
+        val: '도', desc: ['길']
+        stroke: 11
+        originStroke: 14
+      '導':
+        val: '도', desc: ['인도할']
+        stroke: 16
+        tag: [70,110]
+      '島':
+        val: '도', desc: ['섬']
+        stroke: 10
+      '徒':
+        val: '도', desc: ['무리']
+        stroke: 10
+      '圖':
+        val: '도', desc: ['그림']
+        stroke: 14
+      '倒':
+        val: '도', desc: ['넘어질']
+        stroke: 10
+      '都':
+        val: '도', desc: ['도읍']
+        stroke: 12
+        originStroke: 16
+        surname: true
+      '桃':
+        val: '도', desc: ['복숭아']
+        stroke: 10
+        tag: [300]
+      '挑':
+        val: '도', desc: ['돋울']
+        stroke: 9
+        originStroke: 10
+      '跳':
+        val: '도', desc: ['뛸']
+        stroke: 13
+      '逃':
+        val: '도', desc: ['도망할']
+        stroke: 10
+        originStroke: 13
+      '渡':
+        val: '도', desc: ['건널']
+        stroke: 12
+        originStroke: 13
+      '陶':
+        val: '도', desc: ['질그릇']
+        stroke: 11
+        originStroke: 15
+        surname: true
+      '稻':
+        val: '도', desc: ['벼']
+        stroke: 15
+      '盜':
+        val: '도', desc: ['도둑']
+        stroke: 12
+      '塗':
+        val: '도', desc: ['칠할']
+        stroke: 13
+      '堵':
+        val: '도', desc: ['담']
+        stroke: 12
+      '鍍':
+        val: '도', desc: ['도금할']
+        stroke: 17
+        tag: [340]
+      '悼':
+        val: '도', desc: ['슬퍼할']
+        stroke: 11
+        originStroke: 12
+      '萄':
+        val: '도', desc: ['포도']
+        stroke: 12
+        originStroke: 14
+        tag: [300]
+      '洮':
+        val: '도', desc: ['씻을']
+        stroke: 9
+        originStroke: 10
+        tag: [310]
 
 
 
