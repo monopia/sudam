@@ -17,11 +17,13 @@ angular.module 'sudam'
       90: '크다, 넓다, 호방하다'
       100: '맑다, 깨끗하다'
       110: '의롭다, 옳다, 바르다'
+      115: '우정, 친밀, 사랑, 가정'
       120: '부지런하다, 일'
       125: '검소,청렴,겸손'
       130: '한가, 여유, 편안'
       140: '날카롭다, 엄하다'
       150: '즐겁다, 경사, 놀다'
+      155: '음악'
       160: '색깔'
       200: '동물'
       300: '식물(木)'
@@ -31,8 +33,9 @@ angular.module 'sudam'
       340: '금속(金)'
       350: '몸,신체'
       360: '병,질환'
+      370: '별,천문'
       400: '천간(天干)'
-      500: '불교(佛)'
+      500: '종교'
    
 
     hanja.master =
@@ -80,10 +83,11 @@ angular.module 'sudam'
       '歌':
         val: '가', desc: ['노래']
         stroke: 14
-        tag: [150]
+        tag: [150,155]
       '嫁':
         val: '가', desc: ['시집갈']
         stroke: 13
+        tag: [115]
       '稼':
         val: '가', desc: ['심을']
         stroke: 15
@@ -124,7 +128,7 @@ angular.module 'sudam'
       '謌':
         val: '가', desc: ['노래']
         stroke: 17
-        tag: [150]
+        tag: [150,155]
       '柯':
         val: '가', desc: ['가지', '모밀잣밤나무']
         stroke: 9
@@ -166,6 +170,7 @@ angular.module 'sudam'
       '閣':
         val: '각', desc: ['집']
         stroke: 14
+        tag: [115]
       '角':
         val: '각', desc: ['뿔']
         stroke: 7
@@ -277,6 +282,7 @@ angular.module 'sudam'
       '墾':
         val: '간', desc: ['개간할']
         stroke: 16
+        tag: [120]
       '栞':
         val: '간', desc: ['표할','벨']
         stroke: 10
@@ -313,6 +319,7 @@ angular.module 'sudam'
       '渴':
         val: '갈', desc: ['목마를']
         stroke: 12
+        tag: [320]
       '葛':
         val: '갈', desc: ['칡']
         stroke: 13
@@ -335,10 +342,12 @@ angular.module 'sudam'
       '竭':
         val: '갈', desc: ['다할']
         stroke: 14
+        tag: [120]
       '褐':
         val: '갈', desc: ['갈색']
         stroke: 14
         originStroke: 15
+        tag: [160]
       '蝎':
         val: '갈', desc: ['전갈']
         stroke: 15
@@ -435,6 +444,7 @@ angular.module 'sudam'
       '鉀':
         val: '갑', desc: ['갑옷']
         stroke: 5
+        tag: [80]
       '匣':
         val: '갑', desc: ['갑']
         stroke: 7
@@ -493,7 +503,7 @@ angular.module 'sudam'
       '鋼':
         val: '강', desc: ['강철']
         stroke: 16
-        tag: [80]
+        tag: [80,340]
       '綱':
         val: '강', desc: ['벼리']
         stroke: 14
@@ -527,6 +537,7 @@ angular.module 'sudam'
       '糠':
         val: '강', desc: ['겨']
         stroke: 17
+        tag: [300]
       '絳':
         val: '강', desc: ['진홍']
         stroke: 12
@@ -544,6 +555,7 @@ angular.module 'sudam'
       '罡':
         val: '강', desc: ['북두칠성']
         stroke: 10
+        tag: [370]
       '改':
         val: '개', desc: ['고칠']
         stroke: 7
@@ -611,9 +623,11 @@ angular.module 'sudam'
       '豈':
         val: '개', desc: ['승전악']
         stroke: 10
+        tag: [45]
       '客':
         val: '객', desc: ['손']
         stroke: 9
+        tag: [115]
       '坑':
         val: '갱', desc: ['구덩이','산등성이']
         stroke: 7
@@ -654,7 +668,7 @@ angular.module 'sudam'
       '炬':
         val: '거', desc: ['횃불']
         stroke: 9
-        tag: [320]
+        tag: [30,320]
       '倨':
         val: '거', desc: ['거만할']
         stroke: 10
@@ -689,6 +703,7 @@ angular.module 'sudam'
       '虔':
         val: '건', desc: ['공경할']
         stroke: 10
+        tag: [125]
       '楗':
         val: '건', desc: ['문빗장']
         stroke: 13
@@ -755,6 +770,7 @@ angular.module 'sudam'
       '犬':
         val: '견', desc: ['개']
         stroke: 4
+        tag: [200]
       '見':
         val: '견', desc: ['볼']
         stroke: 7
@@ -793,6 +809,7 @@ angular.module 'sudam'
       '結':
         val: '결', desc: ['맺을']
         stroke: 12
+        tag: [115]
       '潔':
         val: '결', desc: ['깨끗할']
         stroke: 15
@@ -830,10 +847,12 @@ angular.module 'sudam'
       '景':
         val: '경', desc: ['별']
         stroke: 12
+        tag: [370]
         surname: true
       '庚':
         val: '경', desc: ['별']
         stroke: 8
+        tag: [370]
         surname: true
       '經':
         val: '경', desc: ['지날','다스릴','글']
@@ -845,6 +864,7 @@ angular.module 'sudam'
       '敬':
         val: '경', desc: ['공경할']
         stroke: 13
+        tag: [115,125]
         surname: true
       '輕':
         val: '경', desc: ['가벼울']
@@ -958,6 +978,7 @@ angular.module 'sudam'
       '計':
         val: '계', desc: ['셀']
         stroke: 9
+        tag: [75]
       '溪':
         val: '계', desc: ['시내']
         stroke: 13
@@ -971,12 +992,15 @@ angular.module 'sudam'
       '系':
         val: '계', desc: ['맬','이을']
         stroke: 7
+        tag: [115]
       '係':
         val: '계', desc: ['맬','이을']
         stroke: 9
+        tag: [115]
       '繼':
         val: '계', desc: ['이을']
         stroke: 20
+        tag: [115]
       '繫':
         val: '계', desc: ['맬','이을']
         stroke: 19
@@ -1013,6 +1037,7 @@ angular.module 'sudam'
       '故':
         val: '고', desc: ['연고']
         stroke: 9
+        tag: [115]
       '固':
         val: '고', desc: ['굳을']
         stroke: 8
@@ -1040,15 +1065,18 @@ angular.module 'sudam'
       '姑':
         val: '고', desc: ['시어머니']
         stroke: 8
+        tag: [115]
       '庫':
         val: '고', desc: ['창고']
         stroke: 10
       '孤':
         val: '고', desc: ['외로울']
         stroke: 8
+        surname: true
       '鼓':
         val: '고', desc: ['북']
         stroke: 13
+        tag: [155]
       '稿':
         val: '고', desc: ['볏짚','원고']
         stroke: 15
@@ -1111,6 +1139,7 @@ angular.module 'sudam'
       '棍':
         val: '곤', desc: ['몽둥이']
         stroke: 12
+        tag: [80]
       '滾':
         val: '곤', desc: ['흐를']
         stroke: 14
@@ -1123,6 +1152,7 @@ angular.module 'sudam'
       '骨':
         val: '골', desc: ['뼈']
         stroke: 10
+        tag: [350]
         surname: true
       '汨':
         val: '골', desc: ['골몰할']
@@ -1132,6 +1162,7 @@ angular.module 'sudam'
       '鶻':
         val: '골', desc: ['송골매']
         stroke: 21
+        tag: [200]
       '滑':
         val: '골', desc: ['익살스러울']
         stroke: 13
@@ -1244,12 +1275,15 @@ angular.module 'sudam'
       '關':
         val: '관', desc: ['관계할']
         stroke: 19
+        tag: [115]
       '館':
         val: '관', desc: ['집']
         stroke: 16
+        tag: [115]
       '舘':
         val: '관', desc: ['집']
         stroke: 16
+        tag: [115]
       '管':
         val: '관', desc: ['대롱','주관할']
         stroke: 14
@@ -1263,6 +1297,7 @@ angular.module 'sudam'
       '冠':
         val: '관', desc: ['갓']
         stroke: 9
+        tag: [40]
       '寬':
         val: '관', desc: ['너그러울']
         stroke: 15
@@ -1277,6 +1312,7 @@ angular.module 'sudam'
         val: '관', desc: ['옥피리']
         stroke: 12
         originStroke: 13
+        tag: [155]
       '灌':
         val: '관', desc: ['물댈']
         stroke: 21
@@ -1380,9 +1416,11 @@ angular.module 'sudam'
       '交':
         val: '교', desc: ['사귈']
         stroke: 6
+        tag: [115]
       '校':
         val: '교', desc: ['학교']
         stroke: 10
+        tag: [70]
       '橋':
         val: '교', desc: ['다리']
         stroke: 16
@@ -1583,6 +1621,7 @@ angular.module 'sudam'
       '君':
         val: '군', desc: ['임금']
         stroke: 7
+        tag: [40]
         surname: true
       '郡':
         val: '군', desc: ['고을']
@@ -1609,6 +1648,7 @@ angular.module 'sudam'
       '宮':
         val: '궁', desc: ['집']
         stroke: 10
+        tag: [115]
         surname: true
       '窮':
         val: '궁', desc: ['다할','궁할']
@@ -1617,13 +1657,16 @@ angular.module 'sudam'
       '鴌':
         val: '궉', desc: ['꿩']
         stroke: 15
+        tag: [200]
         surname: true
       '券':
         val: '권', desc: ['문서']
         stroke: 8
+        tag: [70]
       '權':
         val: '권', desc: ['권세']
         stroke: 22
+        tag: [40]
         surname: true
       '勸':
         val: '권', desc: ['권할']
@@ -1631,9 +1674,11 @@ angular.module 'sudam'
       '卷':
         val: '권', desc: ['책','두루마리']
         stroke: 8
+        tag: [70]
       '拳':
         val: '권', desc: ['주먹']
         stroke: 10
+        tag: [80]
       '眷':
         val: '권', desc: ['돌볼']
         stroke: 11
@@ -1646,6 +1691,7 @@ angular.module 'sudam'
       '闕':
         val: '궐', desc: ['대궐']
         stroke: 18
+        tag: [40]
       '獗':
         val: '궐', desc: ['날뛸']
         stroke: 15
@@ -1659,6 +1705,7 @@ angular.module 'sudam'
       '貴':
         val: '귀', desc: ['귀할']
         stroke: 12
+        tag: [40]
       '歸':
         val: '귀', desc: ['돌아갈']
         stroke: 18
@@ -1696,6 +1743,7 @@ angular.module 'sudam'
       '奎':
         val: '규', desc: ['별']
         stroke: 9
+        tag: [370]
       '葵':
         val: '규', desc: ['해바라기','접시꽃']
         stroke: 13
@@ -1815,6 +1863,7 @@ angular.module 'sudam'
         val: '금', desc: ['거문고']
         stroke: 12
         originStroke: 14
+        tag: [155]
         surname: true
       '衾':
         val: '금', desc: ['이불']
@@ -1943,7 +1992,7 @@ angular.module 'sudam'
         val: '기', desc: ['구슬','별이름']
         stroke: 16
         originStroke: 17
-        tag: [60]
+        tag: [60,370]
       '麒':
         val: '기', desc: ['기린']
         stroke: 19
@@ -1978,6 +2027,7 @@ angular.module 'sudam'
       '箕':
         val: '기', desc: ['키','삼태기','별이름']
         stroke: 14
+        tag: [370]
         surname: true
       '緊':
         val: '긴', desc: ['긴할']
@@ -2014,6 +2064,9 @@ angular.module 'sudam'
       '拿':
         val: '나', desc: ['잡을']
         stroke: 10
+      '拏':
+        val: '나', desc: ['붙잡을']
+        stroke: 9
       '暖':
         val: '난', desc: ['따뜻할']
         stroke: 13
@@ -2200,6 +2253,7 @@ angular.module 'sudam'
         val: '닐', desc: ['친할','친근할']
         initialVal: '일'
         stroke: 9
+        tag: [115]
       '多':
         val: '다', desc: ['많을']
         stroke: 6
@@ -2305,6 +2359,7 @@ angular.module 'sudam'
       '堂':
         val: '당', desc: ['집']
         stroke: 11
+        tag: [115]
       '當':
         val: '당', desc: ['마땅']
         stroke: 13
@@ -2370,9 +2425,6 @@ angular.module 'sudam'
       '宅':
         val: '댁', desc: ['댁']
         stroke: 6
-      '德':
-        val: '덕', desc: ['덕']
-        stroke: 15
       '德':
         val: '덕', desc: ['덕']
         stroke: 15
@@ -2473,84 +2525,308 @@ angular.module 'sudam'
         stroke: 9
         originStroke: 10
         tag: [310]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      '拏':
-        val: '라', desc: ['붙잡을']
+      '讀':
+        val: '독', desc: ['읽을']
+        stroke: 22
+        tag: [70]
+      '獨':
+        val: '독', desc: ['홀로']
+        stroke: 16
+        originStroke: 17
+        surname: true
+      '毒':
+        val: '독', desc: ['독']
         stroke: 9
-        initialVal: '나'
+      '篤':
+        val: '독', desc: ['도타울']
+        stroke: 16
+        tag: [115]
+      '瀆':
+        val: '독', desc: ['도랑','더럽힐']
+        stroke: 18
+        originStroke: 19
+      '禿':
+        val: '독', desc: ['대머리']
+        stroke: 7
+      '豚':
+        val: '돈', desc: ['돼지']
+        stroke: 11
+        tag: [200]
+        surname: true
+      '敦':
+        val: '돈', desc: ['도타울']
+        stroke: 12
+        tag: [115]
+        surname: true
+      '惇':
+        val: '돈', desc: ['도타울']
+        stroke: 11
+        originStroke: 12
+        tag: [115]
+      '暾':
+        val: '돈', desc: ['아침해']
+        stroke: 16
+        tag: [30]
+      '燉':
+        val: '돈', desc: ['불빛']
+        stroke: 16
+        tag: [30,320]
+      '旽':
+        val: '돈', desc: ['밝을']
+        stroke: 8
+        tag: [30,115]
+      '頓':
+        val: '돈', desc: ['조아릴','갑자기']
+        stroke: 13
+        tag: [500]
+        surname: true
+      '突':
+        val: '돌', desc: ['갑자기']
+        stroke: 9
+      '乭':
+        val: '돌', desc: ['이름','돌']
+        stroke: 6
+      '同':
+        val: '동', desc: ['한가지']
+        stroke: 6
+      '童':
+        val: '동', desc: ['아이']
+        stroke: 12
+        tag: [115]
+        surname: true
+      '冬':
+        val: '동', desc: ['겨울']
+        stroke: 5
+        tag: [310]
+      '凍':
+        val: '동', desc: ['얼']
+        stroke: 10
+        tag: [310]
+      '東':
+        val: '동', desc: ['동녘']
+        stroke: 8
+        surname: true
+      '動':
+        val: '동', desc: ['움직일']
+        stroke: 11
+      '銅':
+        val: '동', desc: ['구리']
+        stroke: 14
+        tag: [340]
+      '瞳':
+        val: '동', desc: ['눈동자']
+        stroke: 17
+        tag: [350]
+      '憧':
+        val: '동', desc: ['동경할']
+        stroke: 15
+        originStroke: 16
+      '桐':
+        val: '동', desc: ['오동나무']
+        stroke: 10
+        tag: [300]
+      '洞':
+        val: '동', desc: ['동네']
+        stroke: 9
+        originStroke: 10
+        tag: [115]
+      '董':
+        val: '동', desc: ['감독할']
+        stroke: 13
+        originStroke: 15
+        surname: true
+      '斗':
+        val: '두', desc: ['말']
+        stroke: 4
+        tag: [370]
+      '豆':
+        val: '두', desc: ['콩']
+        stroke: 7
+        tag: [300]
+      '頭':
+        val: '두', desc: ['머리']
+        stroke: 16
+        tag: [350]
+      '杜':
+        val: '두', desc: ['막을']
+        stroke: 7
+        surname: true
+      '鈍':
+        val: '둔', desc: ['둔할']
+        stroke: 12
+      '屯':
+        val: '둔', desc: ['진 칠']
+        stroke: 4
+      '遁':
+        val: '둔', desc: ['숨을']
+        stroke: 13
+        originStroke: 16
+      '臀':
+        val: '둔', desc: ['볼기']
+        stroke: 17
+        originStroke: 19
+        tag: [350]
+      '乧':
+        val: '둘', desc: ['음역자']
+        stroke: 5
+      '得':
+        val: '득', desc: ['얻을']
+        stroke: 11
+        tag: [70]
+      '等':
+        val: '등', desc: ['무리']
+        stroke: 12
+      '登':
+        val: '등', desc: ['오를']
+        stroke: 12
+        tag: [120]
+        surname: true
+      '燈':
+        val: '등', desc: ['등']
+        stroke: 16
+        tag: [320]
+      '騰':
+        val: '등', desc: ['오를']
+        stroke: 20
+        tag: [120]
+      '藤':
+        val: '등', desc: ['등나무']
+        stroke: 19
+        originStroke: 21
+        tag: [300]
+      '謄':
+        val: '등', desc: ['베낄']
+        stroke: 17
       '喇':
         val: '라', desc: ['나팔']
-        stroke: 12
         initialVal: '나'
+        stroke: 12
       '羅':
         val: '라', desc: ['벌일','그물']
-        stroke: 19
         initialVal: '나'
+        stroke: 19
         surname: true
       '螺':
         val: '라', desc: ['소라']
-        stroke: 17
         initialVal: '나'
+        stroke: 17
       '懶':
         val: '라', desc: ['게으를']
+        initialVal: '나'
         stroke: 19
         originStroke: 20
-        initialVal: '나'
       '諾':
         val: '락', desc: ['허락할']
-        stroke: 16
         initialVal: '낙'
+        stroke: 16
       '落':
         val: '락', desc: ['떨어질']
+        initialVal: '낙'
         stroke: 13
         originStroke: 15
-        initialVal: '낙'
       '絡':
         val: '락', desc: ['이을']
-        stroke: 12
         initialVal: '낙'
+        stroke: 12
       '珞':
         val: '락', desc: ['구슬']
+        initialVal: '낙'
         stroke: 10
         originStroke: 11
-        initialVal: '낙'
         tag: [60]
       '酪':
         val: '락', desc: ['소젓']
-        stroke: 13
         initialVal: '낙'
+        stroke: 13
       '駱':
         val: '락', desc: ['낙타']
-        stroke: 16
         initialVal: '낙'
+        stroke: 16
         tag: [200]
       '洛':
         val: '락', desc: ['물이름']
+        initialVal: '낙'
         stroke: 9
         originStroke: 10
-        initialVal: '낙'
         tag: [310]
       '樂':
         val: '락', desc: ['즐길']
-        stroke: 15
         initialVal: '낙'
+        stroke: 15
         tag: [150]
+      '卵':
+        val: '란', desc: ['알']
+        initialVal: '난'
+        stroke: 7
+      '亂':
+        val: '란', desc: ['어지러울']
+        initialVal: '난'
+        stroke: 13
+      '蘭':
+        val: '란', desc: ['난초']
+        initialVal: '난'
+        stroke: 21
+        originStroke: 23
+        tag: [300]
+      '欄':
+        val: '란', desc: ['난간']
+        initialVal: '난'
+        stroke: 21
+      '瀾':
+        val: '란', desc: ['물결']
+        initialVal: '난'
+        stroke: 20
+        originStroke: 21
+        tag: [310]
+      '爛':
+        val: '란', desc: ['빛날','흐드러질']
+        initialVal: '난'
+        stroke: 21
+        tag: [30]
+      '瓓':
+        val: '란', desc: ['옥광채']
+        initialVal: '난'
+        stroke: 21
+        originStroke: 22
+        tag: [60]
+      '剌':
+        val: '랄', desc: ['발랄할']
+        initialVal: '날'
+        stroke: 9
+      '辣':
+        val: '랄', desc: ['매울']
+        initialVal: '날'
+        stroke: 14
+      '覽':
+        val: '람', desc: ['볼']
+        initialVal: '남'
+        stroke: 21
+      '濫':
+        val: '람', desc: ['넘칠']
+        initialVal: '남'
+        stroke: 17
+        originStroke: 18
+        tag: [310]
+      '欖':
+        val: '람', desc: ['감람나무']
+        initialVal: '남'
+        stroke: 25
+        tag: [500]
+      '籃':
+        val: '람', desc: ['대바구니']
+        initialVal: '남'
+        stroke: 20
+      '藍':
+        val: '람', desc: ['쪽']
+        initialVal: '남'
+        stroke: 18
+        originStroke: 20
+        tag: [160,300]
+      '㛦':
+        val: '람', desc: ['예쁠']
+        initialVal: '남'
+        stroke: 11
+        tag: [10]
       '拉':
         val: '랍', desc: ['끌']
         initialVal: '납'
@@ -2562,55 +2838,55 @@ angular.module 'sudam'
         stroke: 21
       '娘':
         val: '랑', desc: ['여자']
-        stroke: 10
         initialVal: '낭'
+        stroke: 10
       '郞':
         val: '랑', desc: ['사내']
+        initialVal: '낭'
         stroke: 10
         originStroke: 14
-        initialVal: '낭'
       '浪':
         val: '랑', desc: ['물결']
+        initialVal: '낭'
         stroke: 10
         originStroke: 11
-        initialVal: '낭'
         surname: true
       '廊':
         val: '랑', desc: ['사랑채']
-        stroke: 13
         initialVal: '낭'
+        stroke: 13
       '朗':
         val: '랑', desc: ['밝을']
-        stroke: 11
         initialVal: '낭'
+        stroke: 11
         tag: [30]
       '烺':
         val: '랑', desc: ['빛밝을']
-        stroke: 11
         initialVal: '낭'
+        stroke: 11
         tag: [30,320]
       '琅':
         val: '랑', desc: ['옥돌']
+        initialVal: '낭'
         stroke: 11
         originStroke: 12
-        initialVal: '낭'
         tag: [60]
       '瑯':
         val: '랑', desc: ['옥돌']
+        initialVal: '낭'
         stroke: 14
         originStroke: 15
-        initialVal: '낭'
         tag: [60]
       '狼':
         val: '랑', desc: ['이리']
+        initialVal: '낭'
         stroke: 10
         originStroke: 11
-        initialVal: '낭'
         tag: [200]
       '螂':
         val: '랑', desc: ['사마귀']
-        stroke: 16
         initialVal: '낭'
+        stroke: 16
         tag: [200]
       '來':
         val: '래', desc: ['올']
@@ -2628,6 +2904,22 @@ angular.module 'sudam'
         stroke: 11
         originStroke: 12
         tag: [310]
+      '冷':
+        val: '랭', desc: ['찰']
+        initialVal: '냉'
+        stroke: 7
+        tag: [310]
+
+
+
+
+
+
+
+
+
+
+
 
 
     hanja
