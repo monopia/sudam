@@ -16,7 +16,7 @@ angular.module 'sudam'
       80: '강하다, 튼튼하다, 武'
       90: '크다, 넓다, 호방하다'
       100: '맑다, 깨끗하다'
-      110: '의롭다, 옳다, 바르다'
+      110: '의롭다, 바르다, 착하다'
       115: '우정, 친밀, 사랑, 가정'
       120: '부지런하다, 일'
       125: '검소,청렴,겸손'
@@ -2909,6 +2909,138 @@ angular.module 'sudam'
         initialVal: '냉'
         stroke: 7
         tag: [310]
+      '略':
+        val: '략', desc: ['간략할']
+        initialVal: '약'
+        stroke: 11
+      '掠':
+        val: '략', desc: ['노략질할']
+        initialVal: '약'
+        stroke: 11
+        originStroke: 12
+        tag: [45,80]
+      '良':
+        val: '량', desc: ['어질']
+        initialVal: '양'
+        stroke: 7
+        tag: [110]
+      '兩':
+        val: '량', desc: ['두']
+        initialVal: '양'
+        stroke: 8
+      '量':
+        val: '량', desc: ['헤아릴']
+        initialVal: '양'
+        stroke: 12
+        tag: [70]
+      '涼':
+        val: '량', desc: ['서늘할']
+        initialVal: '양'
+        stroke: 11
+        originStroke: 12
+        tag: [310]
+      '梁':
+        val: '량', desc: ['들보']
+        initialVal: '양'
+        stroke: 11
+      '糧':
+        val: '량', desc: ['양식']
+        initialVal: '양'
+        stroke: 18
+      '亮':
+        val: '량', desc: ['밝을']
+        initialVal: '양'
+        stroke: 9
+        tag: [30]
+      '旅':
+        val: '려', desc: ['나그네']
+        initialVal: '여'
+        stroke: 10
+      '麗':
+        val: '려', desc: ['고울']
+        initialVal: '여'
+        stroke: 19
+        tag: [10]
+      '慮':
+        val: '려', desc: ['생각할']
+        initialVal: '여'
+        stroke: 15
+        tag: [70]
+      '勵':
+        val: '려', desc: ['힘쓸']
+        initialVal: '여'
+        stroke: 17
+        tag: [115,120]
+      '呂':
+        val: '려', desc: ['성씨']
+        initialVal: '여'
+        stroke: 7
+        surname: true
+      '侶':
+        val: '려', desc: ['짝']
+        initialVal: '여'
+        stroke: 9
+        tag: [115]
+      '儷':
+        val: '려', desc: ['짝']
+        initialVal: '여'
+        stroke: 21
+        tag: [115]
+      '閭':
+        val: '려', desc: ['마을']
+        initialVal: '여'
+        stroke: 15
+      '黎':
+        val: '려', desc: ['검을']
+        initialVal: '여'
+        stroke: 15
+        tag: [160]
+      '廬':
+        val: '려', desc: ['농막집','주막']
+        initialVal: '여'
+        stroke: 19
+      '戾':
+        val: '려', desc: ['어그러질']
+        initialVal: '여'
+        stroke: 8
+      '櫚':
+        val: '려', desc: ['종려']
+        initialVal: '여'
+        stroke: 19
+        tag: [300]
+      '力':
+        val: '력', desc: ['힘']
+        initialVal: '역'
+        stroke: 2
+        tag: [80]
+      '歷':
+        val: '력', desc: ['지날']
+        initialVal: '역'
+        stroke: 16
+      '曆':
+        val: '력', desc: ['책력']
+        initialVal: '역'
+        stroke: 16
+      '瀝':
+        val: '력', desc: ['스밀']
+        initialVal: '역'
+        stroke: 19
+        originStroke: 20
+        tag: [310]
+      '礫':
+        val: '력', desc: ['조약돌']
+        initialVal: '역'
+        stroke: 20
+        tag: [330]
+      '轢':
+        val: '력', desc: ['칠','억누를']
+        initialVal: '역'
+        stroke: 22
+      '靂':
+        val: '력', desc: ['벼락']
+        initialVal: '역'
+        stroke: 24
+
 
 
 
