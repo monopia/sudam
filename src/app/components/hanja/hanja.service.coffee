@@ -3040,13 +3040,210 @@ angular.module 'sudam'
         val: '력', desc: ['벼락']
         initialVal: '역'
         stroke: 24
-
-
-
-
-
-
-
+      '連':
+        val: '련', desc: ['잇닿을']
+        initialVal: '연'
+        stroke: 11
+        originStroke: 14
+      '練':
+        val: '련', desc: ['익힐']
+        initialVal: '연'
+        stroke: 15
+        tag: [70,120]
+      '鍊':
+        val: '련', desc: ['불릴','단련할']
+        initialVal: '연'
+        stroke: 17
+        tag: [75,120]
+      '憐':
+        val: '련', desc: ['불쌍히 여길']
+        initialVal: '연'
+        stroke: 15
+        originStroke: 16
+      '聯':
+        val: '련', desc: ['연이을']
+        initialVal: '연'
+        stroke: 17
+      '戀':
+        val: '련', desc: ['그리워할']
+        initialVal: '연'
+        stroke: 23
+      '蓮':
+        val: '련', desc: ['연꽃']
+        initialVal: '연'
+        stroke: 15
+        originStroke: 17
+        tag: [300]
+      '鰱':
+        val: '련', desc: ['연어']
+        initialVal: '연'
+        stroke: 22
+        tag: [200]
+      '列':
+        val: '렬', desc: ['벌일']
+        initialVal: '열'
+        stroke: 6
+      '烈':
+        val: '렬', desc: ['매울']
+        initialVal: '열'
+        stroke: 10
+        tag: [80]
+      '裂':
+        val: '렬', desc: ['찢을']
+        initialVal: '열'
+        stroke: 12
+      '劣':
+        val: '렬', desc: ['못할','모자랄']
+        initialVal: '열'
+        stroke: 6
+      '洌':
+        val: '렬', desc: ['맑을','찰']
+        initialVal: '열'
+        stroke: 9
+        originStroke: 10
+        tag: [310]
+      '廉':
+        val: '렴', desc: ['청렴할']
+        initialVal: '염'
+        stroke: 13
+        tag: [125]
+      '濂':
+        val: '렴', desc: ['물이름']
+        initialVal: '염'
+        stroke: 16
+        originStroke: 17
+        tag: [310]
+      '斂':
+        val: '렴', desc: ['거둘']
+        initialVal: '염'
+        stroke: 17
+      '殮':
+        val: '렴', desc: ['염할']
+        initialVal: '염'
+        stroke: 17
+      '獵':
+        val: '렵', desc: ['사냥']
+        initialVal: '엽'
+        stroke: 18
+        originStroke: 19
+        tag: [80]
+      '令':
+        val: '령', desc: ['하여금']
+        initialVal: '영'
+        stroke: 5
+        tag: [80]
+      '領':
+        val: '령', desc: ['거느릴']
+        initialVal: '영'
+        stroke: 14
+        tag: [40]
+      '嶺':
+        val: '령', desc: ['고개']
+        initialVal: '영'
+        stroke: 17
+        tag: [330]
+      '零':
+        val: '령', desc: ['떨어지다','영(0)']
+        initialVal: '영'
+        stroke: 13
+      '靈':
+        val: '령', desc: ['신령']
+        initialVal: '영'
+        stroke: 24
+        tag: [500]
+      '伶':
+        val: '령', desc: ['영리할']
+        initialVal: '영'
+        stroke: 7
+        tag: [70]
+      '姈':
+        val: '령', desc: ['슬기로울']
+        initialVal: '영'
+        stroke: 8
+        tag: [70]
+      '玲':
+        val: '령', desc: ['옥소리']
+        initialVal: '영'
+        stroke: 9
+        originStroke: 10
+        tag: [60]
+      '昤':
+        val: '령', desc: ['햇빛']
+        initialVal: '영'
+        stroke: 9
+        tag: [30]
+      '鈴':
+        val: '령', desc: ['방울']
+        initialVal: '영'
+        stroke: 13
+        tag: [340]
+      '齡':
+        val: '령', desc: ['나이']
+        initialVal: '영'
+        stroke: 20
+      '囹':
+        val: '령', desc: ['감옥']
+        initialVal: '영'
+        stroke: 8
+      '羚':
+        val: '령', desc: ['영양']
+        initialVal: '영'
+        stroke: 11
+        tag: [200]
+      '例':
+        val: '례', desc: ['법식']
+        initialVal: '예'
+        stroke: 8
+      '禮':
+        val: '례', desc: ['예도']
+        initialVal: '예'
+        stroke: 18
+        tag: [110]
+      '隷':
+        val: '례', desc: ['종','노예']
+        initialVal: '예'
+        stroke: 16
+      '路':
+        val: '로', desc: ['길']
+        initialVal: '노'
+        stroke: 13
+      '露':
+        val: '로', desc: ['이슬']
+        initialVal: '노'
+        stroke: 21
+      '老':
+        val: '로', desc: ['늙을']
+        initialVal: '노'
+        stroke: 6
+      '勞':
+        val: '로', desc: ['일할']
+        initialVal: '노'
+        stroke: 12
+        tag: [120]
+      '爐':
+        val: '로', desc: ['화로']
+        initialVal: '노'
+        stroke: 20
+        tag: [320]
+      '魯':
+        val: '로', desc: ['노나라','노둔할']
+        initialVal: '노'
+        stroke: 15
+      '盧':
+        val: '로', desc: ['성씨','목로']
+        initialVal: '노'
+        stroke: 16
+      '鷺':
+        val: '로', desc: ['해오라기','백로']
+        initialVal: '노'
+        stroke: 24
+        tag: [200]
+      '擄':
+        val: '로', desc: ['노략질할']
+        initialVal: '노'
+        stroke: 16
+        originStroke: 17
+        tag: [200]
 
 
 
