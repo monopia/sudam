@@ -3,7 +3,7 @@ angular.module 'sudam'
 
     hanja = {}
 
-    hanja.tag = [
+    hanja.tag =
       10: '예쁘다, 아름답다'
       20: '준수하다, 빼어나다'
       30: '빛나다, 밝다'
@@ -3244,8 +3244,99 @@ angular.module 'sudam'
         stroke: 16
         originStroke: 17
         tag: [200]
-
-
+      '綠':
+        val: '록', desc: ['푸를']
+        initialVal: '녹'
+        stroke: 14
+        tag: [160]
+      '祿':
+        val: '록', desc: ['녹(관리의 봉급)']
+        initialVal: '녹'
+        stroke: 12
+        tag: [40]
+      '錄':
+        val: '록', desc: ['기록할']
+        initialVal: '녹'
+        stroke: 16
+      '碌':
+        val: '록', desc: ['녹','푸른 돌']
+        initialVal: '녹'
+        stroke: 13
+      '鹿':
+        val: '록', desc: ['사슴']
+        initialVal: '녹'
+        stroke: 11
+        tag: [200]
+      '弄':
+        val: '롱', desc: ['희롱할']
+        initialVal: '농'
+        stroke: 7
+        tag: [150,155]
+      '瀧':
+        val: '롱', desc: ['비올']
+        initialVal: '농'
+        stroke: 19
+        originStroke: 20
+        tag: [310]
+      '瓏':
+        val: '롱', desc: ['옥소리']
+        ex: ['영롱(玲瓏)하다']
+        initialVal: '농'
+        stroke: 20
+        originStroke: 21
+        tag: [60]
+      '籠':
+        val: '롱', desc: ['대바구니']
+        ex: ['농구(籠球)','농성(籠城)','농락(籠絡)']
+        initialVal: '농'
+        stroke: 22
+        tag: [60]
+      '朧':
+        val: '롱', desc: ['흐릿할']
+        ex: ['몽롱(朦朧)']
+        initialVal: '농'
+        stroke: 20
+      '聾':
+        val: '롱', desc: ['귀먹을']
+        ex: ['농아(聾啞)']
+        initialVal: '농'
+        stroke: 22
+      '雷':
+        val: '뢰', desc: ['우레']
+        initialVal: '뇌'
+        stroke: 13
+        tag: [80,90]
+      '賴':
+        val: '뢰', desc: ['의뢰할']
+        initialVal: '뇌'
+        stroke: 16
+      '儡':
+        val: '뢰', desc: ['꼭두각시']
+        ex: ['괴뢰(傀儡)']
+        initialVal: '뇌'
+        stroke: 17
+      '賂':
+        val: '뢰', desc: ['뇌물']
+        initialVal: '뇌'
+        stroke: 13
+      '料':
+        val: '료', desc: ['헤아릴']
+        initialVal: '요'
+        stroke: 10
+      '了':
+        val: '료', desc: ['마칠']
+        initialVal: '요'
+        stroke: 2
+      '僚':
+        val: '료', desc: ['동료']
+        initialVal: '요'
+        stroke: 14
+        tag: [115]
+      '遼':
+        val: '료', desc: ['멀']
+        initialVal: '요'
+        stroke: 15
+        originStroke: 18
 
 
 
